@@ -1,0 +1,24 @@
+alert("alert message")
+console.log("hello world")
+async-->
+defer-->
+
+
+variable, constant and comment  
+let message="hello";
+
+const me value dena compulsory hai -->  const c=6;
+variable 
+
+always use let in code
+
+reassignment in var is possible
+
+
+
+when ask for var let const
+redeclaration
+redfine
+scope
+
+
