@@ -1,0 +1,24 @@
+#container-box{
+    display:grid;
+    grid-template-rows:repeat(2,1fr);
+    grid-template-columns:repeat(4,1fr);
+    height:100px;
+    width:320px;
+    border:2px solid brown;
+}
+.box{
+    border:1px solid blue;
+}
+.box:nth-child(1),.box:nth-child(3),.box:nth-child(5),.box:nth-child(7){
+    background-color: bisque;
+}
+.box:nth-child(2),.box:nth-child(4),.box:nth-child(6),.box:nth-child(8){
+    background-color: rgb(242, 151, 151);
+}
+
+#part{
+    
+    height:fit-content;
+    width:auto;
+    border:1px solid red;
+}
